@@ -19,7 +19,7 @@ function onFormData(e) {
     e.preventDefault();
       
     JSON.parse(localStorage.getItem(STORAGE_VALUE));
-    console.log(STORAGE_VALUE)
+    console.log(formData)
     e.target.reset();
     localStorage.removeItem(STORAGE_VALUE);
   }
